@@ -62,3 +62,39 @@ copy_pal.reverse()
 if tuplepal == copy_pal:
     print("The tuple is a palindrome.") 
 else:    print("The tuple is not a palindrome.")
+
+dict1 = {"name": "Nikhil", "age": 25, "city": "New York"}
+print(dict1)
+dict2 = {"name": "Alice", "age": 30, "city": "Los Angeles"}
+print(dict2)    
+print(dict1["name"])
+print(dict1.keys())
+print(dict1.values())
+print(dict1.items())
+print(dict1.get("age"))
+print(dict1.update({"age": 26}))
+print(dict1)
+
+dictionary = {
+    "table":["list of facts and figures","a piece of furniture"],
+    "cat":"a small animal"
+}
+print(dictionary.items())
+
+setexample = {1, 2, 3, 4, 5}
+print(setexample)
+setexample.add(6)
+print(setexample)
+setexample.remove(3)
+print(setexample)
+setexample.discard(10)
+setexample.clear()
+print(setexample)
+print("cleared")
+
+setexample1 = {1, 2, 3,8,9,6,5}
+setexample2 = {4, 5, 6,7,8,9}
+setunion= setexample.union(setexample1)
+print(setunion)
+setintersection = setexample1.intersection(setexample2)
+print(setintersection)
