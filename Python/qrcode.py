@@ -98,3 +98,25 @@ setunion= setexample.union(setexample1)
 print(setunion)
 setintersection = setexample1.intersection(setexample2)
 print(setintersection)
+
+count =1
+while count <= 5:
+ print("Count: " + str(count))
+ count = count + 1
+
+table = 5
+count = 1
+while count <= 10:
+  result = table * count
+  print("table:",table, "x", count, "=", result)
+  count = count + 1
+
+num9 = (1, 2, 3, 4, 5,6,8,9,7,53,4,3,24)
+i=0
+m=33
+while i<len(num9):
+    while num9[i] == m:
+      print("Found the number: " + str(m))
+      break
+    print(num9[i])
+    i = i + 1
