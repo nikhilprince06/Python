@@ -120,3 +120,15 @@ while i<len(num9):
       break
     print(num9[i])
     i = i + 1
+
+
+list67 = [1, 2, 3, 4, 5,34,43,54,65,76,87,98,9]
+list68 = [234,345,54,456,657,575,77,678,6786,7868]
+char = "nikhilkulaprorira"
+
+for i in list67:
+    if (i == 34):
+        print(i)
+
+for r in range(2,5,2):
+    print("Hello, World!")
