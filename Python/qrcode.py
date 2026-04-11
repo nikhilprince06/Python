@@ -132,3 +132,5 @@ for i in list67:
 
 for r in range(2,5,2):
     print("Hello, World!")
+
+print("Hello, World!")
