@@ -175,3 +175,6 @@ data = f.read()
 f.write("This is a new line added to the file.")
 print(data)
 f.close()
+
+f = open("C:\\Users\\nikhi\\project\\Python\\testingfile.txt", "r")
+data = f.read()
