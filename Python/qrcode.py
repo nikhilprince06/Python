@@ -178,3 +178,28 @@ f.close()
 
 f = open("C:\\Users\\nikhi\\project\\Python\\testingfile.txt", "r")
 data = f.read()
+
+print("Oops Started")
+
+class Car:
+        color = "red"
+        gear = "manual"
+        fuel = "petrol"
+        def __init__(self, color, gear, fuel):
+            self.color = color
+            self.gear = gear
+            self.fuel = fuel
+            print("This is a constructor method. and itd called automatically when an object is created.")
+        def welcome(self):
+            print("Welcome to the Car class!",self.color)
+
+
+maruti = Car("blue", "automatic", "diesel")
+maruti.welcome()
+print(maruti.color)
+print(maruti.gear)
+
+renault = Car("green", "manual", "petrol")
+
+print(renault.fuel) 
+print(renault.color)
