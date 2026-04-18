@@ -203,3 +203,43 @@ renault = Car("green", "manual", "petrol")
 
 print(renault.fuel) 
 print(renault.color)
+
+class Student:
+    def __init__(self, name, age, grade):
+        self.name = name
+        self.age = age
+        self.grade = grade
+
+    def display_info(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+        print("Grade:", self.grade)
+    
+    def average_grade(self, grades):
+        if len(grades) == 0:
+            return 0
+        return sum(grades) / len(grades)    
+    
+student1 = Student("Nikhil", 25, "A")
+student1.display_info()
+grades = [85, 90, 92]
+average = student1.average_grade(grades)
+print("Average Grade:", average)
+
+
+print("Abstract class and inheritance example")
+class Car:
+    def __init__(self):
+        self.brk = False
+        self.acceeletor = False
+        self.stering = True
+
+    def Start(self):
+        self.bk =False
+        self.acceeletor
+        self.stering = True 
+        print("Car is starting...")
+
+car1 = Car()
+car1.Start()
+
